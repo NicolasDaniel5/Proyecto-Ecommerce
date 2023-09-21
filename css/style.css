@@ -1,0 +1,155 @@
+body{
+    background-color: #BB2525;
+}
+
+.inicio{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    row-gap: 30px;
+    background-color: #BB2525;
+    margin-top: 100px;
+}
+
+.inicio img {
+    width: 285px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.color-navbar {
+    background-color: #141E46;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF5E0;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.color-boton  {
+    background-color: #141E46;
+    color: #FFF5E0;
+}
+
+.color-boton:hover {
+    background-color: #FFF5E0;
+    color: #141E46;
+    border: #141E46 2px solid;
+    
+}
+
+.bi {
+    color: #FFF5E0;
+}
+
+.btn-comprar {
+    color: #141E46;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-comprar:hover {
+    color: #BB2525;
+}
+
+#carrito{
+    display: none;
+    position: fixed;
+    top: 55px;
+    left: 0%;
+    width: 40%;
+    height: auto;
+    background-color: #141E46;
+    z-index: 1000001;
+    border: 2px #FFF5E0 solid;
+    border-radius: 3px;
+    color: #FFF5E0;
+
+}
+
+#carrito img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#btnFinalizarCompra {
+    background-color: blanchedalmond;
+    border-radius: 4px;
+
+}
+
+
+.form {
+    background-color: #141E46;
+    width: 350px;
+    height: 500px;
+    margin-top: 55px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 5px;
+    border: #FFF5E0 2px solid;
+    color: #FFF5E0;
+}
+
+.form button {
+    color: #141E46;
+    border: #FFF5E0 1px solid;
+    background-color: #FFF5E0;
+}
+
+.form button:hover {
+    color: #FFF5E0;
+    border: #FFF5E0 1px solid;
+    background-color: #141E46;
+}
+
+.nav-a {
+    color: #FFF5E0;
+}
+
+#cerrarSesion {
+    color: #141E46;
+    background-color: #FFF5E0;
+    border: #141E46 2px solid;
+    border-radius: 10px;
+    
+}
+
+
+.form__agregar {
+    display: block;
+    width: 350px;
+    height: 300px;
+    border: #FFF5E0 3px solid;
+    display: none;
+    position: fixed;
+    z-index: 1000001;
+    background-color: #141E46;
+    color: #FFF5E0;
+    top: 85px;
+    left: 500px;
+
+    
+}
+
+.form__agregar__hijo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+} 
